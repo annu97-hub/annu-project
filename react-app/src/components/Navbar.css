@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    overflow: hidden;
+    background-color: #333;
+}
+.flex-container div{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+ 
+    text-decoration: none;
+    font-size: 17px;
+}
+.flex-container div:hover {
+    background-color: #ddd;
+    color: black;
+}
+.flex-container div.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
